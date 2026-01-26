@@ -1,0 +1,130 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-py"
+}
+
+// January
+model Jan2025 {
+  id          Int      @id @default(autoincrement())
+  time        String
+  lat         Float?
+  lon         Float?
+  pressure    Float?
+  temperature Float?
+  salinity    Float?
+
+ 
+}
+
+// February
+model Feb2025 {
+  id          Int      @id @default(autoincrement())
+  time        String
+  lat         Float?
+  lon         Float?
+  pressure    Float?
+  temperature Float?
+  salinity    Float?
+
+  
+}
+
+// March
+model Mar2025 {
+  id          Int      @id @default(autoincrement())
+  time        String
+  lat         Float?
+  lon         Float?
+  pressure    Float?
+  temperature Float?
+  salinity    Float?
+
+  
+}
+
+// April
+model Apr2025 {
+  id          Int      @id @default(autoincrement())
+  time        String
+  lat         Float?
+  lon         Float?
+  pressure    Float?
+  temperature Float?
+  salinity    Float?
+
+  
+}
+
+// May
+model May2025 {
+  id          Int      @id @default(autoincrement())
+  time        String
+  lat         Float?
+  lon         Float?
+  pressure    Float?
+  temperature Float?
+  salinity    Float?
+
+  
+}
+
+// June
+model Jun2025 {
+  id          Int      @id @default(autoincrement())
+  time        String
+  lat         Float?
+  lon         Float?
+  pressure    Float?
+  temperature Float?
+  salinity    Float?
+
+  
+}
+
+// July
+model Jul2025 {
+  id          Int      @id @default(autoincrement())
+  time        String
+  lat         Float?
+  lon         Float?
+  pressure    Float?
+  temperature Float?
+  salinity    Float?
+
+  
+}
+
+// (Duplicate was present in your schema, I kept only one July)
+
+// August
+model Aug2025 {
+  id          Int      @id @default(autoincrement())
+  time        String
+  lat         Float?
+  lon         Float?
+  pressure    Float?
+  temperature Float?
+  salinity    Float?
+
+  
+}
+
+// September
+model Sep2025 {
+  id          Int      @id @default(autoincrement())
+  time        String
+  lat         Float?
+  lon         Float?
+  pressure    Float?
+  temperature Float?
+  salinity    Float?
+
+ 
+}
